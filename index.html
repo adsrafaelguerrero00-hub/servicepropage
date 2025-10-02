@@ -1,0 +1,293 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClickPulse — Convierte más visitas en clicks</title>
+  <meta name="description" content="ClickPulse optimiza tu web para maximizar clicks y conversiones. Diseño rápido, pruebas A/B y resultados reales.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ClickPulse — Convierte más visitas en clicks">
+  <meta property="og:description" content="ClickPulse optimiza tu web para maximizar clicks y conversiones. Diseño rápido, pruebas A/B y resultados reales.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/og-image.png"> <!-- PERSONALIZAR -->
+
+  <!-- Preconnect para Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD básico (schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ClickPulse",
+    "url": "https://tu-dominio.com"
+  }
+  </script>
+
+  <!-- Espacio para analytics / GTM (comentado) -->
+  <!--
+  <script>
+    // Insertar Google Analytics o GTM aquí
+  </script>
+  -->
+</head>
+<body>
+  <!-- Sticky mobile CTA -->
+  <button class="sticky-cta" aria-label="Empezar gratis" id="stickyCta">¡Empieza ahora</button>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#"> <!-- Reemplaza por <img> si tienes logo -->
+        <svg width="32" height="32" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#0E7AFE"/></svg>
+        <span class="brand">ClickPulse</span>
+      </a>
+
+      <nav class="nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#features">Características</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-content">
+        <h1>Multiplica tus clicks hoy — convierte visitantes en clientes.</h1>
+        <p class="lead">ClickPulse optimiza tus páginas para obtener más clicks con diseños probados y carga ultrarrápida. Sin tarjeta — 7 días gratis.</p>
+
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#precios">¡Empieza ahora</a>
+          <a class="btn btn-ghost" href="#features">Más información</a>
+        </div>
+
+        <ul class="microproof">
+          <li>✅ +20% promedio en conversiones</li>
+          <li>✅ 10.000+ pruebas realizadas</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <!-- Placeholder SVG: reemplazar por un SVG/imagen optimizada -->
+        <svg width="420" height="300" viewBox="0 0 420 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="420" height="300" rx="16" fill="#EFF6FF"/>
+          <circle cx="80" cy="80" r="40" fill="#0E7AFE" opacity="0.95"/>
+          <rect x="160" y="40" width="200" height="40" rx="8" fill="#0F172A" opacity="0.08"/>
+          <rect x="160" y="100" width="180" height="16" rx="6" fill="#0F172A" opacity="0.06"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section id="features" class="features container">
+      <h2>Por qué funciona</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">📈</div>
+          <h3>Conversiones +20%</h3>
+          <p>Diseños optimizados que guían al usuario hacia el clic correcto y reducen la fricción.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🎯</div>
+          <h3>Diseño probado</h3>
+          <p>Componentes A/B testeados y microcopy persuasivo que mejora el CTR.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">📱</div>
+          <h3>Optimización móvil</h3>
+          <p>Experiencias mobile-first que convierten en pantallas pequeñas y grandes.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section class="how container" aria-labelledby="howTitle">
+      <h2 id="howTitle">Cómo funciona</h2>
+      <ol class="steps">
+        <li>
+          <div class="step-num">1</div>
+          <div>
+            <h4>Auditoría rápida</h4>
+            <p>Analizamos tu página y detectamos puntos de fuga para convertir más.</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-num">2</div>
+          <div>
+            <h4>Implementación</h4>
+            <p>Proponemos cambios de diseño, copy y estructura con prioridad a velocidad.</p>
+          </div>
+        </li>
+        <li>
+          <div class="step-num">3</div>
+          <div>
+            <h4>Test & Escala</h4>
+            <p>Medimos, iteramos y escalamos la variante ganadora.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonios" class="testimonials container">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="test-grid">
+        <blockquote class="testimonial">
+          <p>"Gracias a ClickPulse subimos el CTR de nuestras landing pages un 32% en 3 semanas."</p>
+          <cite>— Ana G., Head Marketing</cite>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>"Implementación rápida y resultados reales. Recomendado para equipos pequeños."</p>
+          <cite>— Javier M., Founder</cite>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>"El soporte fue excelente y las pruebas A/B nos ayudaron a decidir mejor."</p>
+          <cite>— Laura T., Product</cite>
+        </blockquote>
+      </div>
+
+      <div class="client-logos" aria-hidden="true">
+        <!-- placeholders para logos -->
+        <span class="logo">Logo1</span>
+        <span class="logo">Logo2</span>
+        <span class="logo">Logo3</span>
+      </div>
+    </section>
+
+    <!-- PRECIOS -->
+    <section id="precios" class="pricing container">
+      <h2>Planes</h2>
+      <div class="price-grid">
+        <article class="price-card">
+          <h3>Gratis</h3>
+          <p class="price">$0 <small>/ mes</small></p>
+          <ul>
+            <li>Prueba limitada</li>
+            <li>1 landing optimizada</li>
+            <li>Soporte por correo</li>
+          </ul>
+          <a class="btn btn-outline" href="#">Empezar gratis</a>
+        </article>
+
+        <article class="price-card recommended">
+          <h3>Pro</h3>
+          <p class="price">$29 <small>/ mes</small></p>
+          <ul>
+            <li>Auditorías mensuales</li>
+            <li>Tests A/B ilimitados</li>
+            <li>Soporte prioritario</li>
+          </ul>
+          <a class="btn btn-primary" href="#">Probar ahora</a>
+        </article>
+
+        <article class="price-card">
+          <h3>Empresa</h3>
+          <p class="price">Contactar</p>
+          <ul>
+            <li>SLA personalizado</li>
+            <li>Implementación a medida</li>
+            <li>Cuenta dedicada</li>
+          </ul>
+          <a class="btn btn-outline" href="#contacto">Contactar</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq container" id="faq">
+      <h2>Preguntas frecuentes</h2>
+      <details>
+        <summary>¿Puedo probar sin tarjeta?</summary>
+        <p>Sí — ofrecemos 7 días gratis sin pedir datos de tarjeta.</p>
+      </details>
+      <details>
+        <summary>¿Cómo funcionan las pruebas A/B?</summary>
+        <p>Montamos variantes y medimos métricas clave: CTR, tasa de conversión y tasa de rebote.</p>
+      </details>
+      <details>
+        <summary>¿Qué resultados puedo esperar?</summary>
+        <p>Dependiendo del caso, aumentos del 10–30% en CTR son habituales tras la optimización.</p>
+      </details>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contacto">
+    <div class="container footer-grid">
+      <div>
+        <strong>ClickPulse</strong>
+        <p>Optimiza. Testea. Convierte.</p>
+      </div>
+
+      <div>
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#features">Características</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#precios">Precios</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contacto</h4>
+        <p><a href="mailto:hello@clickpulse.com">hello@clickpulse.com</a></p>
+        <p><a href="/privacy.html">Política de privacidad</a></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> ClickPulse — Todos los derechos reservados.</p>
+      <div class="social">
+        <a href="#" rel="noopener noreferrer">Twitter</a>
+        <a href="#" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Inserta año dinámico
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu toggle
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+      toggle.setAttribute('aria-expanded', !expanded);
+      nav.classList.toggle('open');
+    });
+
+    // Sticky CTA behaviour: abrir modal o scroll a precios
+    document.getElementById('stickyCta').addEventListener('click', () => {
+      // Reemplazar por modal real si se desea
+      window.location.href = '#precios';
+    });
+
+    // Simple fade-in on scroll (CSS classes)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) entry.target.classList.add('inview');
+      });
+    }, {threshold: 0.12});
+    document.querySelectorAll('section').forEach(s => observer.observe(s));
+  </script>
+</body>
+</html>
